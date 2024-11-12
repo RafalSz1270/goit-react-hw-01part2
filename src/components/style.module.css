@@ -1,0 +1,129 @@
+.profile-card {
+    max-width: 300px;
+    border: 2px solid #d9d9d9;
+    border-radius: 10px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    overflow: hidden;
+}
+
+.avatar {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: #2f2f2f;
+    margin: 20px auto;
+    display: block;
+}
+
+.name {
+    font-size: 18px;
+    font-weight: bold;
+    color: #000;
+    margin: 5px 0;
+}
+
+.tag,
+.location {
+    font-size: 14px;
+    color: #888;
+    margin: 0;
+}
+
+.stats {
+    display: flex;
+    background-color: #e0e0e0;
+    padding: 0;
+    list-style: none;
+    margin: 0;
+}
+
+.stats li {
+    flex: 1;
+    padding: 10px 0;
+    text-align: center;
+    font-size: 14px;
+    border-right: 1px solid #d9d9d9;
+}
+
+.stats li:last-child {
+    border-right: none;
+}
+
+.label {
+    display: block;
+    color: #666;
+    font-size: 12px;
+}
+
+.quantity {
+    display: block;
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+}
+
+.friendList {
+    display: flex;
+    gap: 10px;
+    padding: 0;
+    list-style: none;
+    justify-content: center;
+}
+
+.friendListItem {
+    border: 2px solid #000;
+    border-radius: 10px;
+    width: 120px;
+    text-align: center;
+    padding: 15px;
+    font-family: Arial, sans-serif;
+}
+/* //////////////////////////////////////////////////// */
+.avatar {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 10px;
+}
+
+.name {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.status {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.status.online {
+    color: green;
+}
+
+.status.offline {
+    color: red;
+}
+/* /////////////////////////////////////////////////////////////// */
+.transactionHistory {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+}
+
+.transactionHistory th,
+.transactionHistory td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #333;
+}
+
+.transactionHistory thead {
+    background-color: #333;
+    color: #fff;
+}
+
+.transactionHistory tbody tr:nth-child(even) {
+    background-color: #d3d3d3;
+}
